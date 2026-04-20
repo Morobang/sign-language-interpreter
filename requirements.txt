@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+mediapipe
+scikit-learn
+jupyterlab
+ipykernel
+ipywidgets
+tqdm
+python-dotenv
