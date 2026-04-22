@@ -20,3 +20,50 @@ env/
 Thumbs.db
 
 kaggle.json
+
+
+
+# Create or overwrite .gitignore with proper rules
+echo "# Virtual environments
+venv/
+venv_mediapipe/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model files (if large)
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and data
+logs/
+*.log
+data/raw/
+data/processed/" > .gitignore
